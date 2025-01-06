@@ -9,17 +9,78 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: auto;
-  margin-bottom: auto;
   height: 100%;
+  color: white;
+  background-color: black;
 }
 
-body {
-  font-family: inter;
+.input-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #6943ff;
+  width: 550px;
+  height: 285px;
+  align-items: center;
+  justify-content: center;
+}
+
+.output-section {
+  background-color: #1f2937;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 2px solid;
-  width: fit-content;
+  gap: 15px;
+  padding-block: 30px;
+}
+
+h1 {
+  font-size: 28px;
+  font-family: Inter;
+  font-weight: bolder;
+}
+
+h3 {
+  font-family: Inter;
+  font-size: 20px;
+  color: #ccc1ff;
+  font-weight: 400;
+}
+
+p {
+  font-family: Inter;
+  font-size: 14px;
+}
+
+input {
+  font-family: Inter;
+  font-size: 58px;
+  font-weight: bolder;
+  width: 117px;
+  background: transparent;
+  color: white;
+  border: solid 2px #b295ff;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  background-color: white;
+  color: #3d3d3d;
+  width: 117px;
+  height: 42px;
+  font-family: inter;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.result {
+  width: 500px;
+  height: 108px;
+  background-color: #273549;
+  text-align: center;
 }
