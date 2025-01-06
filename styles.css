@@ -1,1 +1,25 @@
+.inter {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
 
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 100%;
+}
+
+body {
+  font-family: inter;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid;
+  width: fit-content;
+}
